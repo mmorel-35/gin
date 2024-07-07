@@ -463,7 +463,6 @@ func TestContextInitQueryCache(t *testing.T) {
 			assert.Equal(t, test.expectedQueryCache, test.testContext.queryCache)
 		})
 	}
-
 }
 
 func TestContextDefaultQueryOnEmptyRequest(t *testing.T) {
