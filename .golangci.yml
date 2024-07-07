@@ -19,6 +19,7 @@ linters:
     - nolintlint
     - revive
     - wastedassign
+    - whitespace
 
 linters-settings:
   gosec:
